@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb (253, 251, 251);
+
+}
+#cabecalho{
+    display: inline-block;
+    position:fixed;
+    margin-top:0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;    
+    background-color: aqua;
+    text-align: center;
+    border: solid 2px gray;
+ 
+}
+img{
+    width: 300px;
+    border: solid 5px violet;
+    border-radius: 25% 0;
+    margin-top: 50px;
+}
+main, nav, footer, section {
+    margin-left: 50px;
+}
+
+table{
+    display: flex block;
+    position:relative;
+    border-style: inset;
+    border-color: red;
+    margin-left: 50%;
+}
