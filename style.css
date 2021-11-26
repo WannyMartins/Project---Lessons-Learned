@@ -6,6 +6,7 @@
     
 
 body{
+    width: 1300px;
     background-color:rgb(253, 251, 251);
     font-family: Arial, Helvetica, sans-serif;
     
@@ -14,7 +15,7 @@ body{
     display: inline-block;
     position:fixed;
     margin-top:0;
-    margin-left: 0;
+    margin-left:0;
     margin-right: 0;
     width: 100%;    
     background-color: aqua;
@@ -50,10 +51,12 @@ nav ul li:hover{
 }
 
 img{
-    width: 300px;
+    display:inline-block;
+    width: 500px;
     border: solid 5px violet;
     border-radius: 25% 0;
     margin-top: 40px;
+    margin-right: 0;
 }
 main, nav, footer, section {
     margin-left: 50px;
@@ -65,33 +68,76 @@ h2, h3{
 }
 
 table{
-    display: flex block;
-    position:relative;
+    float:right;
+    display: inline-block;
+    margin-top:40px ;
     border-style: inset;
     border-color: red;
-    padding:20px;
+    padding:20px 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
+    font-size:100px;
     color: green;
     background-color: pink;
-    width: 500px;
-    height: 200px;
+    width: 600px;
+    height: 500px;
 }
 article, section, p, ol li, ul li{
     line-height: 30px;
 }
 .lado-esquerdo{
-    display: block;
+    
+    display: inline-block;
     margin-left:0;
-    width: 500px;
+    width: 400px;
     padding-right: 0;
     border-right: 0;
     margin-right: auto;
     
 }
 .lado-direito{
-    display: block;
+    
+    display: inline-block;
     margin-right: 0;
+    margin-left:150px;
     width: 500px;
    
 }
+div{
+ 
+ 
+    display: inline-block;
+    margin-left: 0;
+    width: 400px;
+    padding-right: 0;
+    border-right: 0;
+    margin-right: auto;
+    
+    
+}
+footer{
+    position:static;
+    display: inline-block;
+    width:1300px;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+#aprender{
+    
+    display: inline-block;
+    margin-left:500px;
+    width: 400px;
+    padding-right: 0;
+    border-right: 0;
+    margin-right: auto;
+    
+}
+section{
+    padding-left: 0;
+    position:relative;
+    top:-430px;
+    display: inline-block;
+    margin-right: 700px;
+    width: 200px; 
+ }
